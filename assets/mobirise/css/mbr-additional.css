@@ -1,9 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i);
-@import url(https://fonts.googleapis.com/css?family=Varela+Round:400);
 @import url(https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i);
-
-
-
 
 
 body {
@@ -22,14 +17,14 @@ body {
   line-height: 1.6;
 }
 .display-1 {
-  font-family: 'Merriweather', serif;
+  font-family: undefined;
   font-size: 0.8rem;
 }
 .display-1 > .mbr-iconfont {
   font-size: 1.28rem;
 }
 .display-2 {
-  font-family: 'Merriweather', serif;
+  font-family: undefined;
   font-size: 1.4rem;
 }
 .display-2 > .mbr-iconfont {
@@ -43,7 +38,7 @@ body {
   font-size: 1.6rem;
 }
 .display-5 {
-  font-family: 'Varela Round', sans-serif;
+  font-family: undefined;
   font-size: 1rem;
 }
 .display-5 > .mbr-iconfont {
@@ -94,15 +89,12 @@ body {
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+  padding: 1rem 3rem;
+  border-radius: 3px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   word-break: break-word;
-  -webkit-align-items: center;
-  -webkit-justify-content: center;
-  display: -webkit-inline-flex;
-  padding: 1rem 3rem;
-  border-radius: 3px;
 }
 .btn-sm {
   font-weight: 500;
@@ -599,7 +591,6 @@ a:hover {
   left: 30%;
   bottom: 30%;
   transform: rotate(135deg);
-  -webkit-transform: rotate(135deg);
 }
 /* Others*/
 .note-check a[data-value=Rubik] {
@@ -640,7 +631,6 @@ a:hover {
   position: absolute;
   transform: rotate(45deg);
   width: 14px;
-  -webkit-transform: rotate(45deg);
 }
 .form-control {
   background-color: #f5f5f5;
@@ -671,7 +661,6 @@ a:hover {
   right: 0;
   top: 0;
   z-index: 0;
-  pointer-events: none;
 }
 blockquote {
   font-style: italic;
@@ -703,7 +692,6 @@ pre {
 }
 .mbr-section__comments .row {
   justify-content: center;
-  -webkit-justify-content: center;
 }
 /* Forms */
 .mbr-form .btn {
@@ -1084,7 +1072,10 @@ pre {
     align-items: center;
   }
   .navbar-toggleable-sm .navbar-collapse {
-    display: none;
+    display: -webkit-box !important;
+    display: -webkit-flex !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
     width: 100%;
   }
   .navbar-toggleable-sm .navbar-toggler {
@@ -1272,7 +1263,6 @@ pre {
 }
 .menu .navbar.collapsed:not(.beta-menu) {
   flex-direction: column;
-  -webkit-flex-direction: column;
 }
 .carousel-item.active,
 .carousel-item-next,
@@ -1294,13 +1284,25 @@ body {
 .dropup .dropdown-toggle::after {
   display: none;
 }
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .card-wrapper {
-    flex: auto!important;
-  }
-}
 .cid-rk8SA4NG2P {
-  background-image: url("../../../assets/images/50693480-975061976028684-6529041491891847168-n-2000x1498.jpg");
+  background-image: url("../../../assets/images/img-1435-2000x1500.jpg");
+}
+.cid-rk8SA4NG2P H3 {
+  color: #ffffff;
+}
+.cid-rpHDseL6yn {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #000000;
+}
+.cid-rpHDseL6yn .mbr-section-subtitle {
+  color: #3e1af9;
+}
+.cid-rpHDseL6yn .btn {
+  margin: 0 0 .5rem 0;
+}
+.cid-rpHDseL6yn H2 {
+  color: #3e1af9;
 }
 .cid-rk2lcXOmVX {
   padding-top: 60px;
@@ -1369,10 +1371,19 @@ body {
   transition: 0.2s background ease-in-out;
   background: linear-gradient(to left, #554346, #45505b) !important;
 }
-.cid-rkp9FnA1ne {
+.cid-rpHLGDiD2Y {
   padding-top: 90px;
   padding-bottom: 90px;
-  background-image: url("../../../assets/images/50693480-975061976028684-6529041491891847168-n-1-2000x1498.jpg");
+  background-color: #000000;
+}
+.cid-rpHLGDiD2Y .mbr-section-subtitle {
+  color: #3e1af9;
+}
+.cid-rpHLGDiD2Y .btn {
+  margin: 0 0 .5rem 0;
+}
+.cid-rpHLGDiD2Y H2 {
+  color: #3e1af9;
 }
 .cid-rk2lcXOmVX {
   padding-top: 60px;
@@ -1393,4 +1404,18 @@ body {
 }
 .cid-rk2BODRITg .mbr-text P {
   color: #ffffff;
+}
+.cid-rpHLwvplKx {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #000000;
+}
+.cid-rpHLwvplKx .mbr-section-subtitle {
+  color: #3e1af9;
+}
+.cid-rpHLwvplKx .btn {
+  margin: 0 0 .5rem 0;
+}
+.cid-rpHLwvplKx H2 {
+  color: #3e1af9;
 }
