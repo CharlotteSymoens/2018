@@ -132,7 +132,7 @@ body {
   border-radius: 3px;
 }
 .bg-primary {
-  background-color: #120f53 !important;
+  background-color: #8f84c9 !important;
 }
 .bg-success {
   background-color: #f7ed4a !important;
@@ -148,8 +148,8 @@ body {
 }
 .btn-primary,
 .btn-primary:active {
-  background-color: #120f53 !important;
-  border-color: #120f53 !important;
+  background-color: #8f84c9 !important;
+  border-color: #8f84c9 !important;
   color: #ffffff !important;
 }
 .btn-primary:hover,
@@ -157,14 +157,14 @@ body {
 .btn-primary.focus,
 .btn-primary.active {
   color: #ffffff !important;
-  background-color: #040312 !important;
-  border-color: #040312 !important;
+  background-color: #5f4fb2 !important;
+  border-color: #5f4fb2 !important;
 }
 .btn-primary.disabled,
 .btn-primary:disabled {
   color: #ffffff !important;
-  background-color: #040312 !important;
-  border-color: #040312 !important;
+  background-color: #5f4fb2 !important;
+  border-color: #5f4fb2 !important;
 }
 .btn-secondary,
 .btn-secondary:active {
@@ -312,22 +312,22 @@ body {
 .btn-primary-outline,
 .btn-primary-outline:active {
   background: none;
-  border-color: #000000;
-  color: #000000;
+  border-color: #5546a1;
+  color: #5546a1;
 }
 .btn-primary-outline:hover,
 .btn-primary-outline:focus,
 .btn-primary-outline.focus,
 .btn-primary-outline.active {
   color: #ffffff;
-  background-color: #120f53;
-  border-color: #120f53;
+  background-color: #8f84c9;
+  border-color: #8f84c9;
 }
 .btn-primary-outline.disabled,
 .btn-primary-outline:disabled {
   color: #ffffff !important;
-  background-color: #120f53 !important;
-  border-color: #120f53 !important;
+  background-color: #8f84c9 !important;
+  border-color: #8f84c9 !important;
 }
 .btn-secondary-outline,
 .btn-secondary-outline:active {
@@ -464,7 +464,7 @@ body {
   border-color: #ffffff;
 }
 .text-primary {
-  color: #120f53 !important;
+  color: #8f84c9 !important;
 }
 .text-secondary {
   color: #7f1933 !important;
@@ -489,7 +489,7 @@ body {
 }
 a.text-primary:hover,
 a.text-primary:focus {
-  color: #000000 !important;
+  color: #5546a1 !important;
 }
 a.text-secondary:hover,
 a.text-secondary:focus {
@@ -536,8 +536,8 @@ a.text-black:focus {
   box-shadow: none !important;
 }
 .mbr-gallery-filter li.active .btn {
-  background-color: #120f53;
-  border-color: #120f53;
+  background-color: #8f84c9;
+  border-color: #8f84c9;
   color: #ffffff;
 }
 .mbr-gallery-filter li.active .btn:focus {
@@ -551,11 +551,11 @@ a.text-black:focus {
 }
 a,
 a:hover {
-  color: #120f53;
+  color: #8f84c9;
 }
 .mbr-plan-header.bg-primary .mbr-plan-subtitle,
 .mbr-plan-header.bg-primary .mbr-plan-price-desc {
-  color: #6a64e3;
+  color: #ffffff;
 }
 .mbr-plan-header.bg-success .mbr-plan-subtitle,
 .mbr-plan-header.bg-success .mbr-plan-price-desc {
@@ -673,7 +673,7 @@ blockquote {
   padding: 10px 0 10px 20px;
   font-size: 1.09rem;
   position: relative;
-  border-color: #120f53;
+  border-color: #8f84c9;
   border-width: 3px;
 }
 ul,
@@ -722,7 +722,7 @@ pre {
   text-align: center;
   position: relative;
   border: 2px solid #c0a375;
-  border-color: #120f53;
+  border-color: #8f84c9;
   color: #232323;
   cursor: pointer;
 }
@@ -733,7 +733,7 @@ pre {
 }
 .btn-social:hover {
   color: #fff;
-  background: #120f53;
+  background: #8f84c9;
 }
 .btn-social + .btn {
   margin-left: .1rem;
@@ -741,11 +741,11 @@ pre {
 /* Footer */
 .mbr-footer-content li::before,
 .mbr-footer .mbr-contacts li::before {
-  background: #120f53;
+  background: #8f84c9;
 }
 .mbr-footer-content li a:hover,
 .mbr-footer .mbr-contacts li a:hover {
-  color: #120f53;
+  color: #8f84c9;
 }
 /* Headers*/
 .offset-1 {
@@ -1289,6 +1289,30 @@ body {
 }
 .dropup .dropdown-toggle::after {
   display: none;
+}
+.cid-rrRREiPUKC {
+  padding-top: 120px;
+  padding-bottom: 45px;
+  background-color: #030303;
+}
+.cid-rrRREiPUKC .line {
+  background-color: #030303;
+  color: #030303;
+  align: center;
+  height: 2px;
+  margin: 0 auto;
+}
+.cid-rrRREiPUKC .section-text {
+  padding: 2rem 0;
+  color: #8f84c9;
+}
+.cid-rrRREiPUKC .inner-container {
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .cid-rrRREiPUKC .inner-container {
+    width: 100% !important;
+  }
 }
 .cid-rqqEUICAOx {
   padding-top: 120px;
@@ -2102,6 +2126,69 @@ body {
 .cid-rqqJQifVP2 .dropdown-item:hover {
   color: #120f53 !important;
 }
+.cid-rrRIs45HSz {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #030303;
+}
+.cid-rrRIs45HSz .mbr-slider .carousel-control {
+  background: #1b1b1b;
+}
+.cid-rrRIs45HSz .mbr-slider .carousel-control-prev {
+  left: 0;
+  margin-left: 2.5rem;
+}
+.cid-rrRIs45HSz .mbr-slider .carousel-control-next {
+  right: 0;
+  margin-right: 2.5rem;
+}
+.cid-rrRIs45HSz .mbr-slider .modal-body .close {
+  background: #1b1b1b;
+}
+.cid-rrRIs45HSz .mbr-gallery-item > div::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #030303;
+  opacity: 0;
+  -webkit-transition: 0.2s opacity ease-in-out;
+  transition: 0.2s opacity ease-in-out;
+}
+.cid-rrRIs45HSz .mbr-gallery-item > div:hover .mbr-gallery-title::before {
+  background: transparent !important;
+}
+.cid-rrRIs45HSz .mbr-gallery-item > div:hover:before {
+  opacity: 1 !important;
+}
+.cid-rrRIs45HSz .mbr-gallery-title {
+  font-size: .9em;
+  position: absolute;
+  display: block;
+  width: 100%;
+  bottom: 0;
+  padding: 1rem;
+  color: #fff;
+  z-index: 2;
+}
+.cid-rrRIs45HSz .mbr-gallery-title:before {
+  content: " ";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  position: absolute;
+  background: #030303 !important;
+  opacity: 1;
+  -webkit-transition: 0.2s background ease-in-out;
+  transition: 0.2s background ease-in-out;
+}
+.cid-rrRIs45HSz .mbr-gallery-item > div > span {
+  color: #c1c1c1;
+}
 .cid-rqqJQifVP2 .navbar {
   padding: .5rem 0;
   background: #000000;
@@ -2503,8 +2590,8 @@ body {
   color: #120f53 !important;
 }
 .cid-rqqKzb4Pf0 {
-  padding-top: 90px;
-  padding-bottom: 90px;
+  padding-top: 120px;
+  padding-bottom: 120px;
   background-color: #000000;
 }
 .cid-rqqKzb4Pf0 .title {
